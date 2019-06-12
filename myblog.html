@@ -8,13 +8,24 @@
                 text-align:center;
             }
             body{
-                background-color:rgb(190, 185, 185);
+                background-color:rgb(180, 175, 175);
+                font-family:sans-serif;
             }
             #contents{
-                color:rgb(200,0,100);text-align:left;
+                color:rgb(170, 73, 122);text-align:left;
 
             }
         
+            .postDate{
+                color:rgb(53, 23, 23);
+                font-weight: bold;
+                
+            }
+
+            .postBlock{
+                background-color:rgb(180, 175, 175);
+
+            }
         </style>
     </head>
     <body>
@@ -25,11 +36,61 @@
         <ul>
             <a href="#firstpostId"><li>First post.</li></a>
             <a href="#secondpostId"><li>Second post.</li></a>
+            <a href="#postId3"><li>Third post.</li></a>
+            <a href="#postId4"><li>Fourth post.</li></a>
             
         </ul>
         
+    <!--
+        <h2 id="postIdN">Fourth post</h2>
+
+       
+        <p>
+            Blog body text <br>
+            Interesting. <br>
+            Fun and Joy.<br>
+
+        </p>
+                <h6 class="postDate">Posted on X/X/XX</h6>
+                <a href="#contents">Contents</a>
+
+    -->
+<div class="postBlock">
+
+        <h2 id="postId4">Fourth post</h2>
+
+        
+        
+        <p>
+            <strong>Things to do today: </strong><br>
+            Job search and ref review. <br>
+            Finish cleaning 1st floor.<br>
+            I finished recycling wax and moulage. Plus html/css practice.<br>
+            <em>I am joyouse and happy about a chance to exercise.</em>
+        </p>
+        <h6 class="postDate">Posted on 6/10/19</h6>
+
+        <a href="#contents">Contents</a>
+</div>
+
+<div class="postBlock">
+        <h2 id="postId3">Third post</h2>
+        
+        <p>
+            Building the site functionality and my blog on github.<br>
+            Painted <em>Explorer beetle</em> with polyurethane to seal it.<br> 
+            Also recycled some of my wax  and moulage.<br>
+            <!-- to do: Add pictures for my beetle sculpture--> 
+        </p>
+        <h6 class="postDate">Posted on 6/8/19</h6>
+
+        <a href="#contents">Contents</a>
+</div>
+ 
+
+<div class="postBlock">
         <h2 id="secondpostId">Second post</h2>
-        <h6>Posted on 6/8/19</h6>
+        
         
         <p>
             This blog is for my sculpture. <br>
@@ -39,21 +100,25 @@
             WIP
 
         </p>
-            
+        <h6 class="postDate">Posted on 6/8/19</h6>
+        <a href="#contents">Contents</a>
+</div>            
+
+<div class="postBlock">
         <h2 id="firstpostId">First post</h2>
-        <h6>Posted on 6/8/19</h6>
         
         <p>I made a blog. <br>
-            Its very new and in progress<br>
+            Its very new and in progress.<br>
             I hope to make it much more interesting and fun.<br>
             Kn
 
 
 
         </p>
+        <h6 class="postDate">Posted on 6/8/19</h6>
         
         <a href="#contents">Contents</a>
-        
+    </div>        
         
     </body>
 </html>
